@@ -1,5 +1,5 @@
 import Contador from "../components/Contador.jsx";
-import "../css/Page2.css";
+import "../css/Pages.css";
 import Voltar from "../components/Voltar.jsx";
 
 export default function Atividade02(){
