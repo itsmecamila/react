@@ -1,0 +1,9 @@
+.estilo{
+    display: flex;;
+    flex-direction: initial;
+
+}
+
+.estilo img{
+    width: 50px;
+}
