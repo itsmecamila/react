@@ -1,7 +1,7 @@
 export function getImageUrl(person){
     return(
-        'https://github.com/' +
+        'https://i.imgur.com/' +
         person.imageId +
-        '.png'
+        's.jpg'
     );
 }
