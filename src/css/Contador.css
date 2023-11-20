@@ -1,0 +1,50 @@
+.completo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+}
+
+.completo p{
+    font-weight: bold;
+}
+
+.layout{
+    display: flex;
+    /* justify-content: center;
+    align-items: center; */
+    gap: 60px;
+}
+
+.layout img{
+    height: 200px;
+    width: 200px;
+}
+
+.botoes{
+    display: flex;
+    gap: 50px;
+}
+
+.botoes img{
+    height: 50px;
+    width: 50px;
+}
+
+.layoutcenter {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.layoutcenter p{
+    margin-top: -10px;
+}
+
+.recarregar-button{
+    width: 50px;
+}

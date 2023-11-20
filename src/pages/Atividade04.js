@@ -1,5 +1,5 @@
-import Voltar from "./Voltar.jsx";
-import Calculadora from "./Calculadora";
+import Voltar from "../components/Voltar";
+import Calculadora from "../components/Calculadora";
 
 export default function Atividade04(){
     return(

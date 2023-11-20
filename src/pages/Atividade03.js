@@ -1,6 +1,6 @@
-import Voltar from "./Voltar.jsx";
-import TableofContents from "./TableOfContents";
-import Gallery from "./Gallery";
+import Voltar from "../components/Voltar";
+import TableofContents from "../components/TableOfContents";
+import Gallery from "../components/Gallery";
 
 export default function Atividade03(){
     return(
