@@ -1,11 +1,9 @@
-import Profile from ".Profile"
+import Profile from "./Profile"
 
 export default function Gallery(){
     return(
         <section>
-            <h1>Amazing People</h1>
-            <Profile/>
-            <Profile/>
+            <h1>Myself</h1>
             <Profile/>
         </section>
         

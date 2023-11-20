@@ -1,6 +1,6 @@
 import {Link} from "react-router-dom";
-import Back from './img/botao-voltar.png';
-import './Voltar.css';
+import Back from '../img/botao-voltar.png';
+import '../css/Voltar.css';
 
 export default function Voltar(){
     return(

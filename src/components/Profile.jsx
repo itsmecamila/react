@@ -1,5 +1,13 @@
 import Avatar from "./Avatar";
 
+function Card({children}){
+    return(
+        <div className="card">
+            {children}
+        </div>
+    )
+}
+
 export default function Profile(){
     return(
         // <img
@@ -9,6 +17,15 @@ export default function Profile(){
         // height={100}
         // />
 
-        <Avatar/>
+        <Card>
+            <Avatar
+                size={100}
+                person={{
+                    name: 'Camila',
+                    imageId: 'itsmecamila'
+                }}
+            />
+        </Card>
+
     );
 }
