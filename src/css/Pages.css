@@ -1,0 +1,31 @@
+main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+.atv1{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+ /* section{
+    display: flex;
+    flex-direction: column;
+    font-size: 14px;
+    border: 0.5px solid grey;
+    margin: 10px;
+} */
+
+ .components{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.components div{
+    border: 1px solid black;
+}
