@@ -9,6 +9,8 @@ import "../css/Contador.css";
 export default function Contador() {
     const [ countH, setCountH ] = useState(0);
     const [ countM, setCountM ] = useState(0);    
+    // retorna uma lista com uma variável que representa o estado, e uma função para manipulá-la
+    //essencial para reatividade
 
     return (
         <div>
