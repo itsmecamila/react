@@ -6,7 +6,7 @@ import "../css/Pages.css"
 export default function Atividade01(){
     return(
         <>
-        <main class="atv1">
+        <main className="atv1">
             <Relogio/>
             <Letreiro frase="Conheça a Fatec..."/>
             <Voltar/>

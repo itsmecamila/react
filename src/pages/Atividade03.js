@@ -6,38 +6,37 @@ import List from "../components/List";
 import TeaSet from "../components/TeaSet";
 import TeaGathering from "../components/TeaGathering";
 import Recipe from "../components/Recipe";
+import Card from "../components/Card";
 import '../css/Pages.css';
 
 export default function Atividade03(){
     return(
-        <main>
-            <div class="components">
-            <div>
+        <main className="special">
+            <Card>                
                 <TableofContents/>
-            </div>
-            <div>
+            </Card>
+            <Card>
                 <Gallery/>
-            </div>
-            <div>
+            </Card>
+            <Card>
                 <PackingList/>
-            </div>
-            <div>
+            </Card>
+            <Card>            
                 <List/>
-            </div>
-            <div>
+            </Card>
+            <Card>
                 <TeaGathering/>
-            </div>
-            <div>
+            </Card>
+            <Card>
                 <TeaSet/>
-            </div>
-            <div>                    
-                <h1>Spiced Chai Recipe</h1>
+            </Card>      
+            <Card>
+            <h1>Spiced Chai Recipe</h1>
                 <h2>For two</h2>
                 <Recipe drinkers={2}/>
                 <h2>For a gathering</h2>
                 <Recipe drinkers={4}/>
-            </div>
-        </div>    
+            </Card>                    
             <Voltar/>
         </main>
         
