@@ -1,0 +1,24 @@
+.items a{
+    text-decoration: none;
+    color: black;
+    font-size: 24px;
+}
+
+.items a:hover{
+    color: purple;
+    font-weight: bold;
+}
+
+.items li{
+    list-style: none;
+    padding: 10px;
+}
+
+.items{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    flex-direction: column;
+    text-align: center;
+}
