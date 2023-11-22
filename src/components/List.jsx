@@ -1,10 +1,11 @@
 import { people } from "../data";
 import { getImageUrl } from "../utils";
+import "../css/Pages.css";
 
 export default function List(){
-    const chemists = people.filter(person => person.profession == 'mathematician');
+    const chemists = people.filter(person => person.profession == 'chemist');
     const listItems = chemists.map(person =>
-        <li key={person.id}>
+        <li className="item2" key={person.id}>
             <img 
             src={getImageUrl(person)}
             alt={person.name}

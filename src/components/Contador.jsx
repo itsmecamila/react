@@ -12,16 +12,16 @@ export default function Contador() {
 
     return (
         <div>
-            <div class="completo">
+            <div className="completo">
             <p>{countH + countM}</p>
-            <img class="recarregar-button" src={Recarregar} onClick={() => {setCountH(0);setCountM(0)}} />
-            <div class="layout">
-                <div class="layoutcenter">
+            <img className="recarregar-button" src={Recarregar} onClick={() => {setCountH(0);setCountM(0)}} />
+            <div className="layout">
+                <div className="layoutcenter">
                     <div>
                         <img src={SimboloHomem} alt="Símbolo Gênero Masculino" />
                     </div>
                     <p>{countH}</p>
-                    <div class="botoes">
+                    <div className="botoes">
                         <img src={MaisBotão} alt="" onClick={() => setCountH(countH + 1)}/> 
                         <img src={MenosBotão} alt="" onClick={()  => {
                             if(countH > 0){
@@ -31,12 +31,12 @@ export default function Contador() {
                         } /> 
                     </div>
                   </div>
-                <div class="layoutcenter"> 
+                <div className="layoutcenter"> 
                     <div>
                         <img src={SimboloMulher} alt="" />
                     </div>      
                         <p>{countM}</p>   
-                    <div class="botoes">
+                    <div className="botoes">
                         <img src={MaisBotão} alt="" onClick={() => setCountM(countM + 1)}/> 
                         <img src={MenosBotão} alt="" onClick={() => {
                             if(countM > 0){

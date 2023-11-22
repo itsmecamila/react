@@ -1,12 +1,6 @@
 import Avatar from "./Avatar";
+import Card from "./Card";
 
-function Card({children}){
-    return(
-        <div className="card">
-            {children}
-        </div>
-    )
-}
 
 export default function Profile(){
     return(
@@ -21,8 +15,8 @@ export default function Profile(){
             <Avatar
                 size={100}
                 person={{
-                    name: 'Camila',
-                    imageId: 'itsmecamila'
+                    name: 'Katsuko Saruhashi',
+                    imageId: 'YfeOqp2'
                 }}
             />
         </Card>
