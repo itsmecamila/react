@@ -3,33 +3,34 @@ export const people = [{
     name: 'Creola Katherine Johnson',
     profession: 'mathematician',
     accomplishment: 'spaceflight calculations',
-    imageId: 'MKeW3A'
+    imageId: 'MK3eW3A'
 },
 {
     id: 1,
-    name: 'Creola Katherine Johnson',
-    profession: 'mathematician',
-    accomplishment: 'spaceflight calculations',
+    name: 'Mario José Molina-Pasquel Henríquez',
+    profession: 'chemist',
+    accomplishment: 'Arctic ozone hole',
     imageId: 'mynHUSa'
 },
 {
     id: 2,
-    name: 'Creola Katherine Johnson',
-    profession: 'mathematician',
-    accomplishment: 'spaceflight calculations',
+    name: 'Mohammad Abdus Salam',
+    profession: 'physicist',
+    accomplishment: 'eletromagnetism theory',
     imageId: 'bE7W1ji'
 },
 {
     id: 3,
-    name: 'Creola Katherine Johnson',
-    profession: 'mathematician',
-    accomplishment: 'spaceflight calculations',
+    name: 'Percy Lavon Julian',
+    profession: 'chemist',
+    accomplishment: 'pioneering cortisone drugs, steroids and birth control pills',
     imageId: 'IOjWm71'
 },
 {
     id: 4,
-    name: 'Creola Katherine Johnson',
-    profession: 'mathematician',
-    accomplishment: 'spaceflight calculations',
+    name: 'Subrahmanyan Chandrasekhar',
+    profession: 'astrophysicist',
+    accomplishment: 'white dwarf star mass calculations',
     imageId: 'lrWQx8l'
 }];
+
