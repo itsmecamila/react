@@ -27,3 +27,72 @@
     padding: 20px;
     border-radius: 10px 10px 0px 0px;
 }
+
+.linha{
+  display: flex;
+}
+
+.linha button{
+  flex: 1;
+}
+/* 
+.interface {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 10px;
+    max-width: 400px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+  }
+  
+  .visor {
+    grid-column: span 4;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    margin-bottom: 10px;
+  }
+  
+  .visor p {
+    margin-bottom: 5px;
+    font-size: 14px;
+    color: #555;
+  }
+  
+  .visor h1 {
+    margin: 0;
+    font-size: 24px;
+  }
+  
+  button {
+    width: 100%;
+    padding: 10px;
+    font-size: 18px;
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  button:hover {
+    background-color: #e0e0e0;
+  }
+  
+  .linha1 button,
+  .linha2 button,
+  .linha3 button,
+  .linha4 button,
+  .linha5 button {
+    grid-column: span 1;
+  }
+  
+  .linha5 button,
+  .linha5 button:nth-child(2),
+  .linha5 button:nth-child(3) {
+    grid-column: span 2;
+  } */
+  
+  
